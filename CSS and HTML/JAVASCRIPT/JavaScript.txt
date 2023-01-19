@@ -1,0 +1,7 @@
+JavaScript :-
+
+JavaScript is programing and scripting lang use to 
+build logic of fuctionnality to webpage
+
+JavaScript is a interpreted language 
+interpreter check check the code line 

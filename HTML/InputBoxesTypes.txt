@@ -1,0 +1,64 @@
+Input Boxes
+
+-->In form the input tag used to create input boxes for the user 
+to enter the data there are different types of input boxes
+
+button                      
+checkbox
+date
+date time
+date time local
+password
+range
+search
+tel
+time
+weak
+email
+file
+hidden
+image
+month
+radio
+submit
+text 
+url
+
+Note-->
+lable tag is used for labeling the input boxes ,input tag can
+be used for creating a input boxes  to change the type of input boxe
+we used type attribute 
+
+
+Progress and Meter Tag
+-->Meter tag is used to measure anything in Quantitively in html
+ex-->
+<meter min="0" ,max="100", low="40",optimum="60" high="80" ,value="85">
+</meter>
+
+min:- min is used to indicate minimum value
+
+max:- max  is used to indicate maximum value
+
+value:-It is used to provide the current value for the input 
+type or any input boxes
+
+high:-it is used to indicate the higher value in the meter tag
+
+low:-it is used to indicate the lower value in the meter tag
+
+optimum:-It is used to indicate average value in meter tag
+
+
+
+Progress
+-->It is used to measure progress of some events
+
+ex-->
+<progress min="0" max="100" value="75">
+</progress>
+
+
+
+
+

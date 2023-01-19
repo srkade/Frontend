@@ -1,0 +1,39 @@
+"+" sign is use for Concatination
+console.log("My Name Is "+name)
+Arithmatic Operator :-
+By Using Arithmatic Operator we can perform sum Arithmatic
+Operation
+
+eg.
+Addition: "+"
+var a=12;
+var b=13;
+
+var c=a+b;
+
+console.log(c)
+
+Substraction : "-"
+var a=16;
+var b=13;
+
+console.log(a-b)
+
+Multiplication: "*"
+
+
+var a=16;
+var b=13;
+console.log(a*b)
+
+Division : "/"
+
+let a=50;
+let b=10:
+ let d=a/b;
+ console.log(d)
+
+ Mode:- "%"
+The Mode is gives the reminder;
+ex. 
+console.log(50%10)//0 is the reminder

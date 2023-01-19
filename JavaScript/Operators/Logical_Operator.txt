@@ -1,0 +1,27 @@
+Logical Operators:-
+○ are used for conditions comparison that basically checks for the validity of
+them
+
+○ They are also used in loops as part of termination conditions.
+
+○ If the first condition is enough to give the final verdict, it will not evaluate
+the second one.
+
+○ 3 operators are there:
+
+■ && - logical AND, returns true when both conditions evaluates to true
+
+■ || - logical OR, returns true when either of the conditions evaluates to
+true
+
+■ ! - logical not, return true when condition evaluates to false
+
+○ Example:
+var a=true,b=false;
+console.log('a&&b : '+ (a&&b));
+console.log('a||b : '+ (a||b));
+console.log('!a : '+ (!a));
+Output
+a&&b : false
+a||b : true
+!a : false

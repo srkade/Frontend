@@ -1,0 +1,35 @@
+Bootstrap:-
+Bootstrap is framewoek of css to design a webpage 
+the latest version of bootstrsp is Boottrap 5.2
+Bootstrap is envented by twitter
+
+we use get bootstrap .com website to add bootstrap in the website
+
+steps 
+Copy the css cdn link and paste in html page after title teg
+
+
+In Bootstrap 
+Predefine colors :-
+primary- blue
+secondery-grey
+succes-green
+danger-red 
+warning- yellow
+info- skyblue
+light-white
+dark-dark
+
+To create a button we use -
+<button type="button" class="btn btn-outline-success >
+
+
+if we want to change the color of button you need to changes 
+in class name
+
+
+sizing of element :-
+in bootstrap large element would have will class name as 'lg' 
+small element will have class name as 'sm'
+
+

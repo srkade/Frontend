@@ -1,0 +1,14 @@
+Shift Operators:-
+○ Two variations - left and right shift
+
+○ left shift: shift bits in left direction for specified value
+
+○ right shift: shift bits in right direction for specified value
+
+○ Example:
+var a=8,b=2;
+console.log("a<<b : "+ (a<<b));
+console.log("a>>b : "+ (a>>b));
+Output
+a<<b : 32
+a>>b : 2

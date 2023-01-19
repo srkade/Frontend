@@ -1,0 +1,18 @@
+.container{
+    width: 900px;
+    height: 700px;
+    background-color: aquamarine;
+}
+.item{
+    background-color: blanchedalmond;
+    width: 300px;
+}
+@media screen and (max-width:700px){
+    .container{
+        width: 500px;
+        height: 500px;
+        background-color: chartreuse;
+        font-size: large;
+    }
+    
+}

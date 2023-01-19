@@ -1,0 +1,44 @@
+div>h1{
+    text-align: center;
+    text-decoration: line-through double red 2px;
+    color: aqua;
+    text-shadow: 5px 4px 5px rgb(77, 57, 57) ;
+    word-spacing: 20px;
+    text-indent: 2ch;
+    
+    letter-spacing: 2px;
+    
+    
+}
+div>p{
+    text-align: center;
+    color: rgb(0, 255, 8);
+    text-shadow: 5px 4px 5px rgb(77, 57, 57) ;
+    text-indent: 2px;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
+
+}
+h2{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-style: italic;
+}
+p{
+    background: linear-gradient(green,black);
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background: radial-gradient(orange);
+
+
+}
+div>pre{
+    line-height: 20px ;
+    letter-spacing: 30px;
+    word-spacing: 40px;
+    
+}

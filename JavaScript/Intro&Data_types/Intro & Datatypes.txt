@@ -1,0 +1,71 @@
+JavaSript 
+it is a Programing and Scripting language 
+is use to build a logic and functionality to
+the website
+
+javascript is a interpreted language
+
+interpreter check the code line by line
+
+JavaSript is object oriented as well as object based programing language
+
+javascript as an update every year 
+eg ES7,ES8,ES9 Or javascript 2022
+
+(Es Ecma Script)
+
+javascript is indented by brendon eich in 1995 
+then advance version of javascript is apdated in 1997 ecma
+
+
+JavaSript data types:-
+1)String:-
+ Any Data which inclose within single or double code and bach tich
+
+eg:-  "Hello World!" or 'Hello' or `hello`
+
+2)Number:-
+
+Number is the Numerical value
+
+eg.:- 10,34,456,-6  9.5
+
+3)Null:-
+It Is a empty value but not zero
+
+4)Undefined:-
+A data Which is declaire but not define
+
+eg :-
+let a;
+
+5)Boolean:-
+Is Nothing in terms True and false
+
+eg.
+true-->1
+false-->0
+
+Symbols:-
+Symbols is Nothing but special charactor
+
+bigint:-
+Any number followed by n it is bigint data type
+ex. 124n
+
+Object :-
+object is a nothing but properties in javascript
+
+object is every time come key and value pair
+
+let a={
+    a: "value",
+    b: "value2",
+    c: "value3"
+}
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <button onclick="call()" onmouseleave="change()">click me</button>
+
+
+    <div onmouseover="over()"><p id="para2">over me</p></div>
+
+
+
+    <div class="clickdown" onmousedown="down()"  onmouseup="up()"> click down
+        <p id="mouseup"></p>
+    </div>
+
+    <script>
+        function change(){
+            document.getElementById("para").innerHTML="Welcome";
+        }
+
+        function up(){
+           var upp=document.getElementById("mouseup")
+           upp.style.visibility="hidden";
+           
+        }
+        function down(){
+            var downme=document.querySelector(".clickdown>p")
+            downme.innerHTML="I amClick down"
+            downme.style.visibility="visible"
+            
+            downme.style.backgroundColor="red"
+        }
+
+
+        function over(){
+            var p2=document.querySelector("div p");
+            p2.style.backgroundColor="pink"
+
+        }
+
+
+        function call(){
+            var p=document.getElementById("para");
+            p.innerHTML="I am Para";
+            p.style.backgroundColor="red";
+            
+        }
+    </script>
+</body>
+</html>

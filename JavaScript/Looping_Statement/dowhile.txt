@@ -1,0 +1,16 @@
+do while
+
+:-
+in do while ioop first statement are executed then check the condition 
+
+in while loop first check the condition then statement are executed
+
+
+syntax:- 
+intialization
+do{
+   // statement
+   // increment
+
+}
+while(condition)

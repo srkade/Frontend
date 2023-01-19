@@ -1,0 +1,15 @@
+1>Var
+1.Var can be redeclaire
+2.we can Reasign var variable
+3.var variable is block scope
+4.we can use var variable as hoisting
+
+note :- hoisting 
+-->Calling the variable before initializing 
+is called as hoisting
+
+
+console.log(b)//12
+var b=12
+
+

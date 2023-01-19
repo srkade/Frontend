@@ -1,0 +1,36 @@
+Animation 
+It is use to provide smoothness to the perticular element
+
+
+Animation Name:-
+It is use to give the name to the animation
+after defination
+
+Animation duration :-
+It is use to provide duration to the element
+
+Anaimation delay:-
+It is Use to gives to delay to animation 
+
+Animation Timing function:-
+
+It is use to Specify how the animation should work
+
+Animation direction:-
+It is Use provide direction of animation 
+
+Aniamtion Iteration Count:-
+It is use to Specify how many times animation takes place 
+
+
+Syntax :-
+<style>
+element{
+ animation: Animation-name duration timing-function delay iteration-count direction ;
+}
+@keyframe Animation-name{
+to{ propeties:Value;}
+}
+
+
+Gradients:-

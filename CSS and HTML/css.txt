@@ -1,0 +1,46 @@
+CSS
+--> CSS Stands For CasCading Style Sheet
+--> By Using CSS Style Sheet We can apply style on html pages
+
+1)Inline style 
+
+syntax :- 
+<p style= "property:value;"> Dont Force for Any Connection </p>
+
+
+2)Internal Style
+
+Syntax:-
+
+<html>
+<head>
+<style>
+#p1{
+color:red;
+}
+</style>
+</head>
+<body>
+<p id="p1" > Hello </p>
+</body>
+</html> 
+
+
+3)External Style 
+
+
+Syntax:-
+
+<html>
+<head>
+<link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+<p id="p1" > Hello </p>
+<h1> WElcome</h1>
+</body>
+</html> 
+
+
+
+Privority Of Css

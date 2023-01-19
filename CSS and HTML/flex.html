@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        header{
+            
+            text-align: center;
+            background-image: linear-gradient(crimson,grey);
+            padding: 5px;
+        }
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            margin: 15px 0px;
+            align-items: center;
+        }
+        a{
+            padding: 10px;
+        }
+        img{
+            height: 250px;
+            width: 250px;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restarant</h1>
+        <nav>
+        <a href="#" id="home">Home</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="contact">Contact Us</a>
+        <a href="#" id="gallary">Gallary</a>
+        <a href="#" id="login">Login</a>
+        </nav>
+    </header>
+    <main>
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&w=1000&q=80" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUYT7AWq0g-yDK5HF41gwW0PK_oW983SM6vEO6XX3&s" alt="">
+        <img src="https://www.shutterstock.com/image-photo/close-braised-beef-short-rib-260nw-530248354.jpg" alt="">
+        <img src="https://media.istockphoto.com/id/545286388/photo/chinese-food-blank-background.jpg?b=1&s=170667a&w=0&k=20&c=ipMtvr-QmWrqBWleY3aVy7-uiyw9NYqTT6nm8vfuVRc=" alt="">
+    </main>
+    <h2>flex Box</h2><br>
+    <p>flexbox is container which align the element in a container  required way</p><br>
+    <pre>To convert container into flex box we can use display :flex</pre><br>
+    <pre>To align the item horizontal way we can use justify content</pre>
+    <h2>flex wrap</h2><br>
+    <pre>this property can be use to wrap the flex element inside the container
+        to wrap the element we use flex wrap 
+
+    </pre>
+    <h2>Align content:-</h2>
+    <br>
+    <pre>It is a peoperty use to align the flex wraped item inside the container </pre>
+    
+
+</body>
+</html>

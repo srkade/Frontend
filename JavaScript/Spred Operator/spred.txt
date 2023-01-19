@@ -1,0 +1,27 @@
+ 
+
+
+         // Spread Operator
+        //it is ES6 concept to join an existing array or object
+        // into new array or object
+
+        let cars=["benz","audi","thar","lambo"]
+        let bikes=["fz","rx100","cd100","spelendor"]
+        let vehicle=[...cars,...bikes];
+        console.log(vehicle);
+
+        var info={
+            name:"suraj",
+            sname:"chavhan",
+            age:30,
+            des:"developer"
+        }
+
+        var info2={
+            fname:"sudhir",
+            sirname:"patil"
+
+        }
+
+        let emp={...info,...info2}
+        console.log(emp);

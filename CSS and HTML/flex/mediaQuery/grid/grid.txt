@@ -1,0 +1,37 @@
+Grid :-
+It is use to provide a layout for the whole website 
+to display a container into grid we use following property
+ex:-  style:-  display: grid;
+
+grid template colums:-
+this property can be used to align no of colums in the grid and above 
+provide the size of each colums
+
+grid template rows:-
+this property is used to provide size for each row of a grid 
+
+ex:-  style:-  
+display: grid;
+grid-template-columns: 200px 20px 200px 150px;
+grid-template-rows: 200px 200px;
+
+
+column-gap:-
+to provide space between each column we use column gap
+ex:- style:-
+column-gap: 1rem;
+row-gap:-
+to provide space between each row we use row gap
+ex:- style:-
+row-gap: 1rem;
+
+<----HTML--->
+ <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>   
+    </div>
+shorthand for items:-
+    div.item{textname $}*itemcount

@@ -1,0 +1,64 @@
+for
+
+
+there are three type loop
+
+1.for_in
+2.for_of
+3.for_each
+
+for in:-for-in loop prints position of array elements
+
+let arr=[234,333,54,65,56];
+for(i in arr){
+    console.log(i);
+}
+//01234
+
+Objext example
+
+let obj={
+    name:"dharam",
+    age:"23",
+    loc:"amravati"
+}
+for(j in obj){
+    console.log(j)
+}
+//name
+age
+loc
+
+for_of loop:-
+for of loop would print array items
+
+syntax:-
+  for(i of var_name){
+    statement;
+  }
+
+  ex.
+  let cars=["benz","brezza","swift","lambo","nexon"]
+  for(i of cars){
+    console.log(i);
+
+  }
+note :- In Object  for of loop is not allow to interate  
+
+
+3.for_each:-
+It is use to loop inside a array using a created function as 
+call back
+
+Ex.
+
+//for each
+let a=["benz","brezza","swift","lambo","nexon"]
+
+function fun(ele,index){
+    console.log(`the array items is ${ele} the position of item is ${index}`)
+}
+a.forEach(fun);//call back fun
+
+//call back :-
+the function as a parameter of another functionis called aas call back function

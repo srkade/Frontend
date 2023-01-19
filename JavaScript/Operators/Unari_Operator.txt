@@ -1,0 +1,26 @@
+Unary Operators
+○ It needs one operand
+○ There are 2 major operators here i.e, increment and decrement and each
+one have 2 variations of postfix and prefix
+○ Increment - to increase the value by 1
+■ postfix: first assign then increment
+■ prefix: first increment then assign
+■ Example
+○ Decrement - to decrease the value by 1
+■ postfix: first assign then decrement
+■ prefix: first decrement then assign
+■ Example
+var a=2; a--;
+2
+var a=2; ++a;
+3
+var a=2; a++;
+2
+var a=2; --a;
+1
+Assignment 
+
+let num1=34
+let num2=54
+
+let add=(--)

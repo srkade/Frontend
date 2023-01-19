@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validating</title>
+
+</head>
+<body>
+    <form action="./wel.html" name="form1" onsubmit="agevalidating()">
+        <label for="">Enter circle radius</label><input id="radius" type="number"><br><br>
+        
+
+        <input type="submit" value="getArea">
+    </form>
+    <script>
+        function agevalidating(){
+            let rad=document.getElementById('radius').value
+
+            let area=3.14*rad*rad;
+            alert(area)
+        }
+
+
+    </script>
+    
+</body>
+</html>

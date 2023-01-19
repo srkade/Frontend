@@ -1,0 +1,98 @@
+Css Selectors 
+1) Simple selectors
+2) Combinator Selectors
+3) Psuedo class selectors 
+4) Pseudo Element Selectors
+5) Atribute Selectors
+
+1) Simple selectors 
+a) Element selector
+
+--> element selector is a selector in which we use the 
+ tag name to select the element
+
+
+b)Class Selector
+c)Id Selector
+d) Grouping selector
+e) universal selector
+
+2) Combination selectors
+a) Descendent Selector
+--> It is use  to select all the descendent child and also 
+(child of child) is also selected
+b) child selector
+: child selector are use only children's of parent
+Syntax :- <style>
+parent>child{
+property:value;
+}
+</style>
+c) Adjacent sibling selector
+:- Adjacent it use to select only the emidiate after the paricular element
+or siblintg of the element
+
+Syntax :-<style>
+parent+child{
+property:value;
+}
+</style>
+
+d)General sibling Selector
+:- It ise to all the sibling of the element which are spacify 
+in the selectros
+:- <style>
+parent~child{
+property:value;
+}
+</style>
+
+
+3) Psuedo class selectors :-
+:- It can be use to select the element in its spetial state
+
+Systax :- element :psuedo-class {
+property:value;
+}
+
+:hover  
+--> it is use to select the element when we hover an element
+
+Symtax: h1:hover{
+            color: crimson;
+        }
+
+:active
+ it is use to select the element whenever it is active or select
+(whenever it is clicked)
+Symtax: h1:active{
+            color: crimson;
+        }
+:viseted :-
+It is use to indicate a state of a link it already been visited 
+
+ a:visited{
+            color: springgreen;
+       }
+
+:first-child:-
+it
+
+
+
+
+
+
+
+puedo -element -selector:-
+this selector select the element as well as adds the content it
+Syntax :-
+element :: psuedo-element{
+property:value;
+
+::after 
+::before
+::first-line
+::first-letter
+::marker
+

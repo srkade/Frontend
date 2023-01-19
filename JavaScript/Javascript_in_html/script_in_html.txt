@@ -1,0 +1,25 @@
+Browser engine :-
+Browser engine inbuild feature of every Browser 
+which helps the the browser to recognise in javascript
+ex
+chrome ---> v8   mozilla --->Spider Monkey  
+Explorer --->chakra  Safari -->js core 
+
+
+There are two ways of applying script to the webpage
+1.Internal script :-
+here applying javascript in the same html document by using 
+script tag 
+
+2.External javascript
+we create a new javascript file with .js extension and linking
+to the current html page by script tag with src attribute
+and provide path of the file 
+
+External JavaScript Advantages
+Placing scripts in external files has some advantages:
+
+It separates HTML and code
+It makes HTML and JavaScript easier to read and maintain
+Cached JavaScript files can speed up page loads
+To add several script files to one page  - use several script tags

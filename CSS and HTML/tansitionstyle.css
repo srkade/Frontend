@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    justify-content: center;
+    align-content: center;
+    
+}
+.item{
+    width: 50px;
+    height: 100px;
+    background-color: rgb(255, 106, 0);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+   animation:ani 2s ease-in alternate infinite forwards;
+}
+    
+.item:hover{
+    
+    transform: translate(100px,100px);
+}
+@keyframes ani {
+    to{
+        transform: translate(100px,100px);
+        transform: skew(30deg);
+    }
+    
+}

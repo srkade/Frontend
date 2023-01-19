@@ -1,0 +1,30 @@
+Transition Property:-
+It is Use to specify the property must get Smoother moment
+
+Transition-duration
+it is use to specify the transition duration 
+
+transition-delay
+It is use to specify a delay in the transition
+
+Timing Function :-
+It is use to specify how the transition must be takes place
+
+
+Scale:-
+This property is use to increse the width or height of element 
+by spacify the number 
+
+if we use scaley then height of the element will be increse
+if we use scalex then width of the element will be increse
+
+Rotate :-
+This Property is use to rotate around the axis 
+
+
+Assignment
+
+box intially size then 
+if we hover the element 
+ Box wil be change 30deg tilded in y dir
+

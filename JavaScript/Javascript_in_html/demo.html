@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Javascript</title>
+    <script>
+        function hello(){
+           let a= document.getElementById("try").innerHTML=" paragraph change!";
+           document.getElementById("try").style.color="purple";
+        }
+    </script>
+</head>
+<body align="center">
+    <h1>
+        Inner Javascript
+    </h1>
+
+    <p id="try"> This Is the para</p>
+    <button type="submit" onclick="hello()"> lets try again</button>
+    
+</body>
+</html>

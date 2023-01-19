@@ -1,0 +1,46 @@
+Conditional Statements - if else
+○ consist of 2 keywords, if and else
+○ This is a way where there are 2 paths possible depending upon a condition
+○ if condition manipulates to true then if gets executed otherwise code is else
+will execute
+○ you can multiple else if followed by else if there are more possible paths.
+○ Also nested if and else are possible
+○ Example:
+var a=5,b=6;
+if(a+b==11)
+console.log("equal");
+else
+console.log("not equal");
+Output
+equal
+
+Conditional Statements - switch
+○ It is an elegant way to replace multiple else-if
+○ Syntax:
+switch(expression)
+{
+case val: ... ;
+break;
+case val: ... ;
+break;
+case val: ... ;
+break;
+default: ...;
+}
+
+○ Here depending upon the answer evaluated by the condition, case
+code gets executed.
+○ every case must be followed by break unless it is required not to as
+per logic. Otherwise, all cases will start executing from the matched
+case till either break is encountered or all cases gets exhausted
+○ default is optional and holds the code which should be executed if no
+catches gets matched.
+○ val can be integer, char or String in javascript.
+
+
+
+Assignment 4
+If Amount is between 1000 to 1999 then    update =deducting from origenal amount by 10%
+If Amount is between 2000 to 3999 then    update =deducting from origenal amount by 15%
+If Amount is above than 4000     update =deducting from origenal amount by 20%
+

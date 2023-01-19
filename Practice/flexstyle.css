@@ -1,0 +1,27 @@
+.container{
+    background-color: cyan;
+    width: 800px;
+    height:900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-flow: column wrap;
+    flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+
+
+}
+.item{
+    margin: 1rem;
+    width: 223px;
+    height: 223px;
+    background-color: blue;
+    color: red;
+    text-align: center;
+    border: 1px solid violet;
+}
+.item1{
+    flex-wrap: wrap-reverse;
+    
+}

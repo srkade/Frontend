@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            
+            left: 40px;
+            top: 40px;
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+           
+
+        }
+        .rotate{
+            background-color: transparent;
+            border: 2px dashed red;
+            transform: rotate(30deg);
+            background-color: lightgrey;
+        }
+        .rotate-translated{
+            background-color: transparent;
+            transform: rotate(45deg) translateX(18px);
+        }
+        .translate-rotate{
+            background-color: gold;
+            transform: translatey(-180px) rotate(45deg);
+        }
+        
+    </style>
+</head>
+<body>
+    <div>Normal</div>
+    <div class="rotate"> Rotated </div>
+    <div class="rotate-translated"> Rotated - translated</div>
+    <div class="translate-rotate"> translate-Rotated </div>
+    
+   
+
+</body>
+</html>

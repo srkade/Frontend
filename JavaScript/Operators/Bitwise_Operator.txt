@@ -1,0 +1,25 @@
+Bitwise Operators:-
+○ It computes by going bit by bit
+
+○ Both side is checked irrespective of what first expression computes to
+
+○ 4 major bit operators are:
+■ & - bitwise and, which returns 1 if both bits are 1 else 0.
+
+■ | - bitwise or, which returns 1 if either of bits is 1 else 0.
+
+■ ^ - bitwise xor, which returns 1 if both bits are different else 0.
+
+■ ~ - bitwise not, which changes 1 to 0 and vice versa.
+
+
+
+
+
+
+○ Example:
+var a=8,b=2;
+console.log('a&b : '+ (a&b));
+console.log('a|b : '+ (a|b));
+console.log('a^b : '+ (a^b));
+console.log('~a : '+ (~a));

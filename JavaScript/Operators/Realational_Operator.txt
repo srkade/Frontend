@@ -1,0 +1,40 @@
+Relational Operators:-
+○ It comprises operators for comparisons
+
+○ There are operators to check inequality i.e., < ,>, <=, >=
+
+○ For equality check, we have 2 operators i.e., == and !=
+
+○ Difference between == and ===
+■ == allow type coercion i.e, one type can change into another at the time
+of comparison
+■ === does not allow type coercion
+
+■ Note:
+● NaN==NaN
+false
+● NaN===NaN
+false
+● +0 == -0
+true
+● +0 === -0
+true
+
+○ Example:
+console.log('2=="2" : '+ (2=="2"));
+console.log('2==="2" : '+ (2==="2"));
+console.log('2!="2" : '+ (2!="2"));
+console.log('2!=="2" : '+ (2!=="2"));
+console.log('2>"2" : '+ (2>"2"));
+console.log('2>="2" : '+ (2>="2"));
+console.log('2<"2" : '+ (2<"2"));
+console.log('2<="2" : '+ (2<="2"));
+Output
+2=="2" : true
+2==="2" : false
+2!="2" : false
+2!=="2" : true
+2>"2" : false
+2>="2" : true
+2<"2" : false
+2<="2" : tru

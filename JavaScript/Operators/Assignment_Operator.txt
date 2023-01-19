@@ -1,0 +1,20 @@
+Assignment & Ternary Operators:-
+○ Assignment operator(=) : is used to assign right hand side value to
+left hand side variable.
+
+○ Ternary operator(?:) : An alternative of if else. Condition is placed
+before ? and if evaluates to true then LHS of colon gets executed
+else RHS of colon will.
+
+○ Example:
+var a=2;
+console.log('a=2 : '+ (a=2));
+console.log((a==2)?console.log("ok"):console.log("not ok"));
+Output
+a=2 : 2
+ok
+
+
+(condition)?
+("true statement):
+(false statement)

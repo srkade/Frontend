@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listner</title>
+    <style>
+        #div1{
+            height: 300px;
+            width: 300px;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <p id="para"></p>
+    <button id="btn">click me</button>
+
+
+    <div id="div1">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quam numquam quas? Sint soluta in, voluptates impedit ad magnam? Blanditiis repellat culpa, et excepturi quas harum! Placeat numquam quos assumenda.</p>
+    </div>
+    <p id="para2"></p>
+    <script>
+
+        document.getElementById("div1").addEventListener('mousemove',function(){
+            document.getElementById('para2').innerHTML=Math.random();
+        })
+
+        // we are targeted btn by id
+        let btn=document.getElementById("btn")
+        var para=document.getElementById("para")
+
+        // btn.addEventListener('click',fun)
+
+        // function fun(){
+        //    para.innerHTML="this is new para" 
+        // }
+
+
+
+        //  btn.addEventListener('mouseover',function(){
+        //      console.log("mouse over is activated")
+        //  })
+        // btn.addEventListener('mouseout',function(){
+        //     console.log("mouse out is activated")
+        // })
+
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>

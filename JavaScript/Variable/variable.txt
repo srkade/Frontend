@@ -1,0 +1,9 @@
+Variables:-
+● Variable is a name of a memory location where the data is
+
+stored.
+● Syntax : var varname = val;
+● In JS, variable is defined using var keyword
+
+○ var name =”Faizan”;
+○ var roll_no=27;

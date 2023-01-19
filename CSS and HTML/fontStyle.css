@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,600;1,600&family=Oswald&display=swap');
+
+div>h1{
+    font-family:"Oswald";
+    
+}
+div>p{
+    font-size:20px ;
+    text-transform: uppercase;
+    text-shadow:20px 10px 5px red ;
+    background-color: rgb(202, 12, 12);
+}
+*{
+   background-image: url(https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg);
+   background-repeat: no-repeat;
+}
+p:last-child{
+    color: blue;
+}

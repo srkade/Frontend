@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+    <script>
+        //          22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1      
+        //String str=w e l c o m e ""  t o j a v a s c r i p t
+        //           0 1 2 3 4 5 6 7   8 9 10 11 12
+        let str="Welcome to Javascript";
+        let str2=" program ";
+
+        console.log("String length ="+str.length);//length method is gives length of string
+        console.log(str.charAt(6))//
+        console.log(str.endsWith("script"))//it retuns the end of string provided char is present then it will
+        //return true if not then it returns false
+        console.log(str.includes("knklk"))//if the provided string is present in side the string then it returns true else false
+        console.log(str.indexOf("t"))//it returns index of provided string 
+        console.log(str.repeat(2))//it returns repeatinfg the string in n number of form
+        console.log(str.replace("javascript","HTML")) // by using of replace we change the included sequence of string
+        console.log(str.slice(2,12))//slice(start,end+1) it returns The slice of string
+        console.log(str.slice(-12,-5))//
+
+
+        console.log(str.substr(-11,6))//same as slice but here small diif str.substr(start,end)
+        console.log(str.substring(-2,5))//the two parameter of substr are start and length , while for 
+        //substring() they are start and end 
+        console.log(str.toUpperCase())//it returns the string in UPPERCASE
+        console.log(str.toLowerCase())//it returns the string in lowercase
+        console.log(str.split("t"))//It returns a string can be converted into array
+        console.log(str.concat(" ",str2))//it will be for join two or mmore string 
+        console.log(str2.trim())//it is use to remove whitespace from both side
+        console.log(str2)
+
+    </script>
+
+</head>
+<body>
+    <h1>String</h1>
+</body>
+</html>

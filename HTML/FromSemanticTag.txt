@@ -1,0 +1,57 @@
+Semantic Tag
+1) Header :-Header is tag used to contain the heading 
+or logos
+
+2 Nav :- Nav tag is used to Contain navigational links
+
+3) Section :- It is used to Independent Contained 
+
+4)Article :- It is used to Small conatins
+
+5)Footer :- It is used to contain information such as copyright
+Or authership or any other information regarding the bublisher
+
+6) Details :-details enclose the hide or hide or unhide 
+text of contains or any ther information
+7)Summary:- It is visible heading inside the deatails tag
+
+8) Main:- It is used to enclose all main contains
+
+9)Mark :-It is used to Highlights the text
+
+10)Aside :- Aside is contains is away from the main contains
+
+
+
+How To Make a Website Responsive
+--> By using media Queries
+
+
+
+
+
+### IFrame
+iframe is used to embed  anather Html Page inside the current Html page
+
+Syntex:-
+<iframe src="path" >name of iframe
+</iframe>
+
+
+Commenting in Html
+--> Commenting can be use for reference purposes for the developer 
+ex-->
+
+<!-- Comment --> this is for multiline comment
+shortcut for comment drag the text and click "ctrl + /"  
+
+
+Audio 
+
+
+
+
+
+
+
+ 

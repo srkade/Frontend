@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Node</title>
+</head>
+<body>
+    <div id="con">
+        <input type="text" onkeydown="change()" onkeyup="upchange()"  onkeypress="presschange()">
+        <p id="para"  onclick="">hello</p>
+        <button id="button">click here</button>
+    </div>
+
+    <ol id="list">
+        <li id="first" >list item 1</li>
+        <li id="second">list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+
+    </ol>
+
+
+    <script>
+
+        function presschange(){
+            document.getElementById('con').style.backgroundColor='red' 
+        }
+
+        function upchange(){
+            document.getElementById('con').style.backgroundColor='green'
+
+        }
+        function change(){
+            document.getElementById('con').style.backgroundColor='pink'
+        }
+
+
+        //remove
+        var o=document.getElementById('list');
+         var del=o.removeChild(o.firstElementChild)
+         console.log(del)
+
+         o.removeChild(o.childNodes[2]);
+
+
+         //append 
+        var a=document.getElementById('con');
+        var b=document.createElement('h1');
+        var c=document.createTextNode('this is new element');
+        b.append(c)
+        a.appendChild(b)
+
+        // var p=document.getElementById(a.firstChild);
+        // a.removeChild(a.firstElementChild)
+
+        //replace
+
+        var para=document.getElementById('para')
+        a.replaceChild(b,para)
+    </script>
+    
+</body>
+</html>

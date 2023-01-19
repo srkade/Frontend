@@ -1,0 +1,19 @@
+While loop:-
+while loop is use perfom unknown number of iteratin
+ 
+ syntax:-
+  // intialization 
+  while(condition){
+    //statement
+
+    //increment
+  }
+
+
+  //
+
+
+  for(let i=0; i<=5; i++){
+
+    print()
+  }

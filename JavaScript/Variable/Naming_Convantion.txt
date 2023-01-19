@@ -1,0 +1,14 @@
+Naming Convention:-
+● Variable names should begin with a letter, $ or an underscore(_).
+
+● First character can be then followed by any combination of letters
+or digits.
+
+● A variable name cannot be the same as any keyword as they are
+predefined by javascript
+
+reserved for special purposes.
+● Variable names case sensitive.
+
+○ Eg: valid- apple, _name, $address1
+○ Eg: invalid- 123apple, *roll, @email

@@ -1,0 +1,36 @@
+*{
+    user-select: none;
+}
+body{
+    overflow: hidden;
+    background: #a65151;
+
+}
+input{
+    position: absolute;
+    display: none;
+
+}
+.menu{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: -25%;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-radius: 70px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #38576c;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12,0 1px 2px) rgba(0,0,0,0.24);
+    transition: all .3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}

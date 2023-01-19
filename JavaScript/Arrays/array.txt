@@ -1,0 +1,94 @@
+
+Array:
+
+It is used to store ordered data together.
+:-Array are Collection of different data types in single variable
+● It is defined within square brackets( [ ] ) and can have elements of different types
+var a=[1,true,'hello']
+a[2]
+"hello"
+● You can also leave sime position
+var a=[2,3,,4]
+a[2]
+undefined
+a
+(4) [2, 3, empty, 4]
+
+
+Array Methods - Push and Pop
+● They are used to add and delete elements from last respectively
+● Example
+let arr = [1,2];
+arr.push(3);
+arr
+(3) [1, 2, 3]
+arr.pop();
+arr
+(2) [1, 2]
+
+
+Array Methods - Unshift and Shift
+● They are used to add and delete elements from front respectively
+● Example
+let arr = [1,2];
+arr.unshift(3);
+arr
+(3) [3, 1, 2]
+arr.shift();
+arr
+(2) [1, 2]
+
+
+Array Methods - Splice
+● It used to add new elements in the array from specified to and from index
+● Example
+let arr = [1,2,3,4,5];
+arr.splice(1,3,"hello");
+arr
+(3) [1, "hello", 5]
+Elements from index 1 to 3(inclusive) are replaced by hello
+● Splice can also be used to delete the elements from the array
+let arr = [1,2,3,4,5];
+arr.splice(1,3);
+arr
+(2) [1, 5]
+
+
+Array Methods - Slice
+● It can help one to create new array from existing array
+● Example
+let arr1 = arr.slice(1);
+arr1
+(4) [2, 3, 4, 5]
+let arr = [1,2,3,4,5];
+let arr1 = arr.slice(1,3);
+arr1
+(2) [2,3]
+Elements from index 1 to 3(exclusive) are assigned to arr1
+
+
+Array Printing
+● Array can be printed using for, for each, for in or for of
+● Using for
+for(let i=0;i<arr.length;i++)
+console.log(arr[i]+" ");
+23
+cat
+[object Object]
+● Using forEach()
+arr.forEach(item => console.log(item+" "));
+
+
+
+Array Printing
+● Using for of
+for(item of arr)
+console.log(item+" ");
+● Using for in
+● used for enumerables i.e, objects
+● it can also be used for iterables in which index acts as key
+for(item in arr)
+console.log(item+" ");
+0
+1
+2 

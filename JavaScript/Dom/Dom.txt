@@ -1,0 +1,6 @@
+Dom (Documenet Object Modol):-
+
+This Concept in JS is use to do 
+many modification in the html structure
+
+
